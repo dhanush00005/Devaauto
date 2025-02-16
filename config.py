@@ -1,8 +1,8 @@
 from os import environ
 
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_ID = int(environ.get("API_ID", "21427459"))
+API_HASH = environ.get("API_HASH", "cb23f6f9c4fe9783a0d948c7e2178d26")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8085380955:AAFIj7d6INM3b4wrkqBkvlxZ_zmAh9lvqGs")
 
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", ""))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
